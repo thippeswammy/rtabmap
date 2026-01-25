@@ -1,5 +1,5 @@
 import torch
-import torchvision
+
 from demo_superpoint  import SuperPointNet
 model = SuperPointNet()
 model.load_state_dict(torch.load("superpoint_v1.pth"))
